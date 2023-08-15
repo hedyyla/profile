@@ -57,9 +57,12 @@ button:hover {
   display: inline-block;
   margin: 0;
 }
-#navigation > li a {
+#navigation > li > a {
   padding: 2px;
   margin: 0;
+}
+#navigation > li > a > i {
+  font-size: larger;
 }
 ul {
   padding-inline-start: 0px;
